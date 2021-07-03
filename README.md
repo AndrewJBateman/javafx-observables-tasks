@@ -1,12 +1,12 @@
 # :zap: Java observables Tasks
  
-* Java code for a Java Programming Masterclass Section 15-285 JavaFx background tasks in Java- see [:clap: Inspiration](#clap-inspiration) below
+* Java code to display list of employees when button pressed in FXML controller gridpane 
 * **Note:** to open web links in a new window use: _ctrl+click on link_
 
-![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/java-observables-tasks?style=plastic)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/java-observables-tasks?style=plastic)
-![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/java-observables-tasks?style=plastic)
-![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/java-observables-tasks?style=plastic)
+![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/javafx-observables-tasks?style=plastic)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/javafx-observables-tasks?style=plastic)
+![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/javafx-observables-tasks?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/javafx-observables-tasks?style=plastic)
 
 ## :page_facing_up: Table of contents
 
@@ -24,7 +24,7 @@
 
 ## :books: General info
 
-* t
+* Code from Java Programming Masterclass Section 15-285 JavaFx background tasks in Java- see [:clap: Inspiration](#clap-inspiration) below
 
 ## :camera: Screenshots
 
@@ -87,7 +87,7 @@ public class Controller {
 
 ## :clipboard: Status & To-Do List
 
-* Status: Working.
+* Status: Working
 * To-Do: Nothing
 
 ## :clap: Inspiration
