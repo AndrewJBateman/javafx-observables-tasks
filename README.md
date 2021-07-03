@@ -25,6 +25,7 @@
 ## :books: General info
 
 * Code from Java Programming Masterclass Section 15-285 JavaFx background tasks in Java- see [:clap: Inspiration](#clap-inspiration) below
+* Progress bar shown below list with text detail of data added using simple for loop
 
 ## :camera: Screenshots
 
@@ -54,23 +55,40 @@ public class Controller {
   @FXML
   private ListView listView;
 
+  @FXML
+  private ProgressBar progressBar;
+
+  @FXML
+  private Label progressLabel;
+
   public void initialize() {
     task = new Task<ObservableList<String>>() {
       @Override
       protected ObservableList<String> call() throws Exception {
-        Thread.sleep(1000);
 
-        final ObservableList<String> employees = FXCollections.observableArrayList(
-                "Tim Buchalka",
+        String[] names = {"Tim Buchalka",
                 "Bill Rogers",
                 "Jack Jill",
                 "Joan Andrews",
                 "Mary Johnson",
-                "Bob McDonald");
+                "Bob McDonald"};
 
+        ObservableList<String> employees = FXCollections.observableArrayList();
+
+        for(int i=0; i<6; i++) {
+          employees.add(names[i]);
+          updateMessage(names[i] + " added to the list");
+          updateProgress(i + 1, 6);
+          Thread.sleep(200);
+          updateMessage("list complete");
+        }
         return employees;
+
       }
     };
+
+    progressBar.progressProperty().bind(task.progressProperty());
+    progressLabel.textProperty().bind(task.messageProperty());
     listView.itemsProperty().bind(task.valueProperty());
   }
 
@@ -83,7 +101,7 @@ public class Controller {
 
 ## :cool: Features
 
-* N/A
+* Progress label shows each name as it is added to the list then a list complete message is displayed
 
 ## :clipboard: Status & To-Do List
 
