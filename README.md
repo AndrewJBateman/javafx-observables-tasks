@@ -26,6 +26,8 @@
 
 * Code from Java Programming Masterclass Section 15-285 JavaFx background tasks in Java- see [:clap: Inspiration](#clap-inspiration) below
 * Progress bar shown below list with text detail of data added using simple for loop
+* Employee Service now separated
+* Progress bar and Progress label binding to 
 
 ## :camera: Screenshots
 
@@ -101,7 +103,7 @@ public class Controller {
 
 ## :cool: Features
 
-* Progress label shows each name as it is added to the list then a list complete message is displayed
+* Progress label shows each name as it is added to the list then a 'list complete' message is displayed
 
 ## :clipboard: Status & To-Do List
 
