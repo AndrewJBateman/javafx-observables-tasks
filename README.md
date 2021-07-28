@@ -1,4 +1,4 @@
-# :zap: Java observables Tasks
+# :zap: JavaFX Observables Tasks
  
 * Java code to display list of employees when button pressed in FXML controller gridpane 
 * **Note:** to open web links in a new window use: _ctrl+click on link_
@@ -10,7 +10,7 @@
 
 ## :page_facing_up: Table of contents
 
-* [:zap: Angular Material Table](#zap-angular-material-table)
+* [:zap: JavaFX Observables Tasks](#zap-javafx-observables-tasks)
   * [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
   * [:books: General info](#books-general-info)
   * [:camera: Screenshots](#camera-screenshots)
@@ -24,7 +24,7 @@
 
 ## :books: General info
 
-* Code from Java Programming Masterclass Section 15-285 JavaFx background tasks in Java- see [:clap: Inspiration](#clap-inspiration) below
+* Code from Java Programming Masterclass Section 15-285 JavaFx background tasks in Java - see [:clap: Inspiration](#clap-inspiration) below
 * Progress bar shown below list with text detail of data added using simple for loop
 * Employee Service now separated
 * Progress bar and Progress label binding to 
